@@ -14,6 +14,9 @@ class SearchBar extends React.Component {
 
     search() {
         this.props.onSearch(this.state.term);
+        this.setState({
+            term: ''
+        })
     }
 
     handleTermChange(event) {
