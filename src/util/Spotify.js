@@ -1,7 +1,6 @@
 let userAccessToken; 
 const clientID = '08953ba0ce15455a94e59c9a8a273846';
-// const uri = "http://jaming.surge.sh/";
-const uri = 'http://localhost:3000/';
+const uri = 'https://jammming-wheat.vercel.app/';
 
 const Spotify = {
     getAccesToken() {
