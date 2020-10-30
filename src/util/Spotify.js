@@ -1,6 +1,6 @@
 let userAccessToken; 
 const clientID = '08953ba0ce15455a94e59c9a8a273846';
-const uri = 'https://jammming-wheat.vercel.app/';
+const uri = 'https://jammming-835ldb13t.vercel.app';
 
 const Spotify = {
     getAccesToken() {
